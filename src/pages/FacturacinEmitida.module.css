@@ -1,0 +1,565 @@
+.placeholder {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 84.62%;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-2);
+}
+.admin,
+.mayraZ {
+  position: relative;
+}
+.mayraZ {
+  font-weight: 600;
+}
+.admin {
+  color: var(--color-gray-3);
+}
+.name {
+  position: absolute;
+  top: 7px;
+  left: 242px;
+  width: 64px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.contraseaIcon,
+.disponibilidadIcon,
+.inboxIcon {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 44.36%;
+  bottom: 0;
+  left: 40.26%;
+  border-radius: var(--br-21xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.disponibilidadIcon,
+.inboxIcon {
+  right: 64.87%;
+  left: 19.74%;
+}
+.inboxIcon {
+  right: 84.62%;
+  left: 0;
+}
+.sideMenu {
+  position: absolute;
+  top: 58px;
+  left: 1418px;
+  width: 390px;
+  height: 60px;
+}
+.frameChild,
+.i {
+  position: relative;
+}
+.i {
+  width: 13px;
+  display: inline-block;
+  height: 44px;
+  flex-shrink: 0;
+}
+.frameChild {
+  width: 48px;
+  border-radius: var(--br-base);
+  background-color: var(--color-orange);
+  height: 48px;
+  margin-top: -41px;
+}
+.iParent {
+  width: 48px;
+  height: 51px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.interschool {
+  position: relative;
+  font-size: var(--font-size-9xl);
+}
+.footer {
+  position: absolute;
+  top: 1085px;
+  left: 60px;
+  width: 236px;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.homeIcon {
+  width: 30px;
+  position: relative;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.dashboard {
+  width: 299px;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  filter: var(--shadow);
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.email {
+  position: relative;
+  font-weight: 500;
+}
+.students {
+  width: 299px;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.vectorIcon {
+  width: 21px;
+  position: relative;
+  height: 28px;
+}
+.food,
+.list {
+  display: flex;
+  justify-content: flex-start;
+}
+.food {
+  width: 316px;
+  border-radius: var(--br-21xl) 0 0 var(--br-21xl);
+  background-color: var(--color-background);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  color: var(--color-purple);
+}
+.list {
+  position: absolute;
+  height: 49.58%;
+  width: 87.78%;
+  top: 11.68%;
+  right: 0;
+  bottom: 38.75%;
+  left: 12.22%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--text-text-semi-bold-1-size);
+  color: var(--color-gray-2);
+}
+.e,
+.escuelaBenitoJuarez {
+  width: 20px;
+  position: relative;
+  display: inline-block;
+  height: 44px;
+  flex-shrink: 0;
+}
+.escuelaBenitoJuarez {
+  width: 227px;
+  font-size: var(--font-size-xl);
+  height: 33px;
+}
+.logo {
+  position: absolute;
+  top: 47px;
+  left: 30px;
+  width: 291px;
+  height: 51px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.component1,
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.sidebar {
+  height: 100%;
+  width: 19.91%;
+  right: 80.09%;
+  bottom: 0;
+  background-color: var(--color-purple);
+  font-size: var(--heading-heading-1-size);
+  color: var(--color-white1);
+}
+.component1 {
+  width: 1808px;
+  height: 1182px;
+}
+.div {
+  position: absolute;
+  top: 18px;
+  left: 17px;
+  display: inline-block;
+  width: 50px;
+}
+.div1 {
+  top: 18px;
+  left: 161px;
+  width: 33px;
+}
+.div1,
+.ventaAlPublico,
+.xaxx01010100 {
+  position: absolute;
+  display: inline-block;
+}
+.ventaAlPublico {
+  top: 9px;
+  left: 220px;
+  text-align: center;
+  width: 100px;
+}
+.xaxx01010100 {
+  top: 18px;
+  left: 331px;
+  width: 83px;
+}
+.hernandezKahikwmFrida {
+  left: 426px;
+  width: 209px;
+}
+.div2,
+.hernandezKahikwmFrida,
+.ingreso {
+  position: absolute;
+  top: 18px;
+  display: inline-block;
+}
+.ingreso {
+  left: 648px;
+  color: var(--color-gray-300);
+  width: 52px;
+}
+.div2 {
+  left: 750px;
+  width: 44px;
+}
+.div3 {
+  left: 850px;
+  width: 25.1px;
+}
+.activo,
+.div3,
+.div4,
+.div5 {
+  position: absolute;
+  top: 18px;
+  display: inline-block;
+}
+.div4 {
+  left: 927px;
+  color: var(--color-gray-300);
+  width: 43px;
+}
+.activo,
+.div5 {
+  left: 992px;
+  width: 42px;
+}
+.div5 {
+  left: 1071px;
+  color: var(--color-gray-300);
+  width: 25px;
+}
+.parent {
+  width: 1363px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white1);
+  height: 53px;
+  flex-shrink: 0;
+}
+.fecha,
+.frameParent {
+  position: absolute;
+  left: 0;
+}
+.frameParent {
+  top: 36px;
+  width: 1361px;
+  height: 609px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  gap: 19px;
+}
+.fecha {
+  top: 14px;
+  font-weight: 600;
+  font-family: var(--heading-heading-3);
+}
+.fecha,
+.folio,
+.serie {
+  color: var(--color-gray-300);
+}
+.serie {
+  position: absolute;
+  top: 14px;
+  left: 74px;
+  font-weight: 600;
+  font-family: var(--heading-heading-3);
+}
+.folio {
+  left: 140px;
+}
+.alumno,
+.folio,
+.raznSocial,
+.rfc {
+  position: absolute;
+  top: 14px;
+  font-weight: 600;
+  font-family: var(--heading-heading-3);
+}
+.raznSocial {
+  left: 204px;
+  color: var(--color-gray-300);
+}
+.alumno,
+.rfc {
+  left: 340px;
+}
+.alumno {
+  left: 471px;
+}
+.efecto {
+  margin: 0;
+}
+.efectoComprobante {
+  position: absolute;
+  top: 0;
+  left: 611px;
+  font-weight: 600;
+  font-family: var(--heading-heading-3);
+  text-align: center;
+}
+.impuesto,
+.subtotal,
+.total {
+  position: absolute;
+  top: 15px;
+  left: 726px;
+  font-weight: 600;
+}
+.impuesto,
+.total {
+  left: 813px;
+}
+.total {
+  left: 906px;
+}
+.enviarMensaje,
+.estatus,
+.impresin,
+.versin,
+.xml {
+  position: absolute;
+  top: 15px;
+  left: 969px;
+  font-weight: 600;
+}
+.enviarMensaje,
+.impresin,
+.versin,
+.xml {
+  left: 1036px;
+}
+.enviarMensaje,
+.impresin,
+.xml {
+  left: 1102px;
+}
+.enviarMensaje,
+.xml {
+  left: 1184px;
+}
+.enviarMensaje {
+  left: 1229px;
+}
+.menuTable {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  width: 1318px;
+  height: 36px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
+}
+.table {
+  position: absolute;
+  top: 404px;
+  left: 428px;
+  width: 1361px;
+  height: 645px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-200);
+}
+.mostrar {
+  width: 78px;
+  position: relative;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.buttonConsultar {
+  position: absolute;
+  top: 125px;
+  left: 1037px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-dodgerblue);
+  width: 140px;
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 7px 28px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.uiscalenderIcon {
+  width: 22px;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div54,
+.uiscalenderIcon {
+  position: relative;
+}
+.calendario,
+.desdeFecha,
+.hastaFecha {
+  width: 149px;
+  display: flex;
+  justify-content: flex-start;
+}
+.calendario {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-ghostwhite-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 37px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  gap: var(--gap-4xs);
+  font-size: var(--text-text-regular-2-size);
+  color: var(--color-darkslategray-200);
+}
+.desdeFecha,
+.hastaFecha {
+  position: absolute;
+  top: 97px;
+  left: 855px;
+  height: 65px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  color: var(--color-darkslategray-100);
+}
+.desdeFecha {
+  left: 677px;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.consultaFacturacin {
+  width: 697px;
+  position: relative;
+  display: inline-block;
+}
+.idAlumno,
+.nombre,
+.title {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.title {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-purple);
+  width: 1373px;
+  height: 60px;
+  justify-content: center;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+  font-size: var(--heading-heading-3-size);
+}
+.idAlumno,
+.nombre {
+  top: 103px;
+  left: 217px;
+  width: 300px;
+  justify-content: flex-start;
+  font-size: var(--text-text-semi-bold-1-size);
+  color: var(--color-text);
+}
+.idAlumno {
+  left: 40px;
+  width: 92px;
+}
+.consulta {
+  position: absolute;
+  top: 154px;
+  left: 428px;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white1);
+  width: 1373px;
+  height: 206px;
+  font-size: var(--font-size-mini);
+  color: var(--color-white1);
+}
+.facturacinEmitida {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-background);
+  height: 1182px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--text-text-regular-2-size);
+  color: var(--color-text);
+  font-family: var(--heading-heading-3);
+}
