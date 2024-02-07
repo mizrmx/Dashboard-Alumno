@@ -1,0 +1,39 @@
+.image-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 960px;
+  height: 1182px;
+  object-fit: cover;
+}
+.bienvenido-al-panel {
+  position: absolute;
+  top: 168px;
+  left: 0;
+}
+.interschool-logo-azul-1-icon {
+  position: absolute;
+  top: 0;
+  left: 194px;
+  width: 149px;
+  height: 123px;
+  overflow: hidden;
+}
+.header {
+  position: absolute;
+  top: 196px;
+  left: 1176px;
+  width: 513px;
+  height: 204px;
+}
+.login {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-background);
+  height: 1182px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-heading-3-size);
+  color: var(--color-silver-100);
+  font-family: var(--heading-heading-3);
+}

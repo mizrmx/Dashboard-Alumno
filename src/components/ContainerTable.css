@@ -1,0 +1,373 @@
+.b1,
+.total-de-carrito1 {
+  width: 127px;
+  position: relative;
+  display: inline-block;
+  height: 25px;
+  flex-shrink: 0;
+}
+.b1 {
+  width: 89px;
+}
+.total2 {
+  position: absolute;
+  top: 714px;
+  left: 942px;
+  width: 259px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.result-child {
+  position: absolute;
+  top: -0.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-gray-100);
+  box-sizing: border-box;
+  width: 1356px;
+  height: 1px;
+}
+.result-item {
+  position: absolute;
+  top: 53px;
+  left: 0;
+  max-height: 100%;
+  width: 1355px;
+}
+.div81,
+.div82,
+.totales {
+  position: absolute;
+  display: inline-block;
+  height: 25px;
+}
+.totales {
+  top: 13px;
+  left: 454px;
+  font-size: var(--text-text-regular-2-size);
+  width: 91px;
+}
+.div81,
+.div82 {
+  top: 15px;
+  left: 614px;
+  width: 82px;
+}
+.div82 {
+  left: 719px;
+  font-size: var(--font-size-smi);
+  width: 37px;
+}
+.span {
+  font-size: var(--font-size-xs);
+}
+.div83,
+.div84 {
+  position: absolute;
+}
+.div83 {
+  top: 13px;
+  left: 792px;
+  display: inline-block;
+  width: 37px;
+  height: 25px;
+  font-size: var(--font-size-smi);
+}
+.div84 {
+  left: 890px;
+  width: 69px;
+}
+.div84,
+.div85,
+.div86 {
+  top: 15px;
+  display: inline-block;
+  height: 25px;
+}
+.div85 {
+  position: absolute;
+  left: 1115px;
+  width: 72px;
+}
+.div86 {
+  left: 984px;
+  width: 43px;
+}
+.div86,
+.div87,
+.result {
+  position: absolute;
+}
+.result {
+  top: 645px;
+  left: 6px;
+  width: 1355px;
+  height: 53px;
+  font-size: var(--font-size-xs);
+}
+.div87 {
+  top: 17px;
+  left: 13px;
+  display: inline-block;
+  width: 4px;
+}
+.agosto,
+.div88,
+.div89,
+.inscripcin-primaria,
+.insp {
+  position: absolute;
+  top: 17px;
+  left: 40px;
+  display: inline-block;
+  width: 29.1px;
+}
+.agosto,
+.div89,
+.inscripcin-primaria,
+.insp {
+  left: 102px;
+  width: 43.1px;
+}
+.div89,
+.inscripcin-primaria,
+.insp {
+  left: 211px;
+  width: 51.2px;
+}
+.inscripcin-primaria,
+.insp {
+  left: 351px;
+  color: var(--color-darkslategray-100);
+  width: 26.1px;
+}
+.inscripcin-primaria {
+  left: 454px;
+  width: 130px;
+}
+.div90,
+.div91,
+.div92,
+.div93,
+.div94,
+.div95 {
+  position: absolute;
+  top: 17px;
+  left: 615px;
+  display: inline-block;
+  width: 62.2px;
+}
+.div91,
+.div92,
+.div93,
+.div94,
+.div95 {
+  left: 719px;
+  width: 25.1px;
+}
+.div92,
+.div93,
+.div94,
+.div95 {
+  left: 792px;
+}
+.div93,
+.div94,
+.div95 {
+  left: 896px;
+}
+.div94,
+.div95 {
+  left: 984px;
+}
+.div95 {
+  left: 1124px;
+  width: 54.2px;
+}
+.agregar-al-carrito,
+.shop-icon {
+  width: 15px;
+  position: relative;
+  height: 14px;
+}
+.agregar-al-carrito {
+  width: 89px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.boton-carrito {
+  position: absolute;
+  top: 9px;
+  left: 1204px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-purple);
+  width: 130px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-5xs) var(--padding-4xs)
+    var(--padding-2xs);
+  box-sizing: border-box;
+  gap: var(--gap-6xs);
+  font-size: var(--font-size-3xs);
+  color: var(--m3-sys-light-on-primary);
+}
+.parent10,
+.parent11,
+.parent12,
+.parent13,
+.parent6,
+.parent7,
+.parent8,
+.parent9 {
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  border-radius: var(--br-8xs);
+  background-color: var(--m3-sys-light-on-primary);
+  width: 1363px;
+  height: 53px;
+}
+.parent10,
+.parent11,
+.parent12,
+.parent13,
+.parent7,
+.parent8,
+.parent9 {
+  top: 82px;
+}
+.parent10,
+.parent11,
+.parent12,
+.parent13,
+.parent8,
+.parent9 {
+  top: 156px;
+  left: 6px;
+}
+.parent10,
+.parent11,
+.parent12,
+.parent13,
+.parent9 {
+  top: 230px;
+}
+.parent10,
+.parent11,
+.parent12,
+.parent13 {
+  top: 304px;
+}
+.parent11,
+.parent12,
+.parent13 {
+  top: 378px;
+}
+.parent12,
+.parent13 {
+  top: 452px;
+}
+.parent13 {
+  top: 526px;
+}
+.frame-container {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  width: 1361px;
+  height: 609px;
+  overflow-y: auto;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+}
+.ciclo2,
+.div159,
+.f-vencimiento,
+.mes-cargo1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  color: var(--color-gray-300);
+}
+.ciclo2,
+.f-vencimiento,
+.mes-cargo1 {
+  left: 28px;
+}
+.f-vencimiento,
+.mes-cargo1 {
+  left: 90px;
+}
+.f-vencimiento {
+  left: 199px;
+}
+.concepto1,
+.descripcin3,
+.monto1 {
+  position: absolute;
+  top: 0;
+  left: 337px;
+  font-weight: 600;
+}
+.descripcin3,
+.monto1 {
+  left: 444px;
+}
+.monto1 {
+  left: 605px;
+}
+.beca,
+.descuento1,
+.monto-pagado,
+.recargo1,
+.saldo {
+  position: absolute;
+  top: 1px;
+  left: 709px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+}
+.descuento1,
+.monto-pagado,
+.recargo1,
+.saldo {
+  left: 779px;
+}
+.monto-pagado,
+.recargo1,
+.saldo {
+  left: 883px;
+}
+.monto-pagado,
+.saldo {
+  left: 972px;
+}
+.saldo {
+  left: 1110px;
+}
+.menu-table2,
+.table1 {
+  position: absolute;
+  top: 0;
+  left: 19px;
+  width: 1149px;
+  height: 21px;
+  color: var(--color-darkslategray-100);
+}
+.table1 {
+  top: 468px;
+  left: 430px;
+  width: 1361px;
+  height: 739px;
+  text-align: left;
+  font-size: var(--text-text-regular-2-size);
+  color: var(--color-gray-200);
+  font-family: var(--heading-heading-3);
+}

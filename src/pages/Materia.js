@@ -1,122 +1,115 @@
-import styles from "./Materia.module.css";
+import ViewSalaryDetails from "../components/ViewSalaryDetails";
+import "./Materia.css";
 
 const Materia = () => {
   return (
-    <div className={styles.materia}>
-      <div className={styles.materiaChild} />
-      <div className={styles.frameData}>
-        <div className={styles.groupParent}>
-          <div className={styles.rectangleParent}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.bmat1}>BMAT1</div>
-            <div className={styles.matemticas1}>Matemáticas 1</div>
-            <div className={styles.ba1a}>BA1A</div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+    <div className="materia">
+      <div className="materia-child" />
+      <div className="frame-data1">
+        <div className="group-container">
+          <div className="rectangle-parent6">
+            <div className="group-child6" />
+            <div className="div9">2023</div>
+            <div className="bmat1">BMAT1</div>
+            <div className="matemticas-1">Matemáticas 1</div>
+            <div className="ba1a">BA1A</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="11px"
+              viewSalaryDetailsLeft="535px"
+            />
           </div>
-          <div className={styles.rectangleGroup}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.bmat1}>BMAT1</div>
-            <div className={styles.matemticas1}>Matemáticas 1</div>
-            <div className={styles.ba1a}>BA1A</div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent7">
+            <div className="group-child6" />
+            <div className="div9">2023</div>
+            <div className="bmat1">BMAT1</div>
+            <div className="matemticas-1">Matemáticas 1</div>
+            <div className="ba1a">BA1A</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="11px"
+              viewSalaryDetailsLeft="535px"
+            />
           </div>
-          <div className={styles.rectangleContainer}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.bmat1}>BMAT1</div>
-            <div className={styles.matemticas1}>Matemáticas 1</div>
-            <div className={styles.ba1a}>BA1A</div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent8">
+            <div className="group-child6" />
+            <div className="div9">2023</div>
+            <div className="bmat1">BMAT1</div>
+            <div className="matemticas-1">Matemáticas 1</div>
+            <div className="ba1a">BA1A</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="11px"
+              viewSalaryDetailsLeft="535px"
+            />
           </div>
-          <div className={styles.groupDiv}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.bmat1}>BMAT1</div>
-            <div className={styles.matemticas1}>Matemáticas 1</div>
-            <div className={styles.ba1a}>BA1A</div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent9">
+            <div className="group-child6" />
+            <div className="div9">2023</div>
+            <div className="bmat1">BMAT1</div>
+            <div className="matemticas-1">Matemáticas 1</div>
+            <div className="ba1a">BA1A</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="11px"
+              viewSalaryDetailsLeft="535px"
+            />
           </div>
-          <div className={styles.rectangleParent1}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.bmat1}>BMAT1</div>
-            <div className={styles.matemticas1}>Matemáticas 1</div>
-            <div className={styles.ba1a}>BA1A</div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent10">
+            <div className="group-child6" />
+            <div className="div9">2023</div>
+            <div className="bmat1">BMAT1</div>
+            <div className="matemticas-1">Matemáticas 1</div>
+            <div className="ba1a">BA1A</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="11px"
+              viewSalaryDetailsLeft="535px"
+            />
           </div>
-          <div className={styles.rectangleParent2}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.bmat1}>BMAT1</div>
-            <div className={styles.matemticas1}>Matemáticas 1</div>
-            <div className={styles.ba1a}>BA1A</div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent11">
+            <div className="group-child6" />
+            <div className="div9">2023</div>
+            <div className="bmat1">BMAT1</div>
+            <div className="matemticas-1">Matemáticas 1</div>
+            <div className="ba1a">BA1A</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="11px"
+              viewSalaryDetailsLeft="535px"
+            />
           </div>
-          <div className={styles.rectangleParent3}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.bmat1}>BMAT1</div>
-            <div className={styles.matemticas1}>Matemáticas 1</div>
-            <div className={styles.ba1a}>BA1A</div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent12">
+            <div className="group-child6" />
+            <div className="div9">2023</div>
+            <div className="bmat1">BMAT1</div>
+            <div className="matemticas-1">Matemáticas 1</div>
+            <div className="ba1a">BA1A</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="11px"
+              viewSalaryDetailsLeft="535px"
+            />
           </div>
-          <div className={styles.rectangleParent4}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.bmat1}>BMAT1</div>
-            <div className={styles.matemticas1}>Matemáticas 1</div>
-            <div className={styles.ba1a}>BA1A</div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent13">
+            <div className="group-child6" />
+            <div className="div9">2023</div>
+            <div className="bmat1">BMAT1</div>
+            <div className="matemticas-1">Matemáticas 1</div>
+            <div className="ba1a">BA1A</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="11px"
+              viewSalaryDetailsLeft="535px"
+            />
           </div>
         </div>
-        <div className={styles.ciclo}>Ciclo</div>
-        <div className={styles.materia1}>Materia</div>
-        <div className={styles.descripcin}>Descripción</div>
-        <div className={styles.grupo}>Grupo</div>
+        <div className="ciclo1">Ciclo</div>
+        <div className="materia1">Materia</div>
+        <div className="descripcin1">Descripción</div>
+        <div className="grupo">Grupo</div>
       </div>
-      <div className={styles.materias}>Materias</div>
+      <div className="materias">Materias</div>
     </div>
   );
 };

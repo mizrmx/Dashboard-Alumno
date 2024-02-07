@@ -1,0 +1,86 @@
+.background1 {
+  position: absolute;
+  top: 156px;
+  left: 428px;
+  border-radius: var(--br-6xl);
+  background-color: var(--color-thistle-100);
+  width: 1418px;
+  height: 992px;
+  display: none;
+}
+.bg {
+  position: relative;
+  background-color: var(--m3-sys-light-on-primary);
+  border: 1px solid var(--color-gainsboro);
+  box-sizing: border-box;
+  height: 809px;
+  display: none;
+}
+.bg,
+.boletapdf,
+.boletapdf-child {
+  border-radius: var(--br-3xs);
+  width: 1373px;
+}
+.boletapdf-child {
+  position: relative;
+  height: 809px;
+  object-fit: cover;
+  display: none;
+}
+.boletapdf {
+  position: absolute;
+  top: 285px;
+  left: 428px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0;
+  box-sizing: border-box;
+  background-image: url(/public/boletapdf@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.boleta2 {
+  width: 697px;
+  position: relative;
+  display: inline-block;
+}
+.boleta1,
+.title4 {
+  width: 1373px;
+  display: flex;
+  flex-direction: column;
+}
+.title4 {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-purple);
+  height: 60px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.boleta1 {
+  position: absolute;
+  top: 154px;
+  left: 428px;
+  border-radius: var(--br-xl);
+  background-color: var(--m3-sys-light-on-primary);
+  height: 102px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.boleta {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-background);
+  height: 1182px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-heading-3-size);
+  color: var(--m3-sys-light-on-primary);
+  font-family: var(--heading-heading-3);
+}

@@ -6,14 +6,14 @@ import {
   useLocation,
 } from "react-router-dom";
 import EspecialidadesTaller from "./pages/EspecialidadesTaller";
+import Login from "./pages/Login";
 import Materia from "./pages/Materia";
+import PolticasDevolucin from "./pages/PolticasDevolucin";
 import AvisoDePrivacidad from "./pages/AvisoDePrivacidad";
 import FacturacinEmitida from "./pages/FacturacinEmitida";
 import EstadoDeCuenta from "./pages/EstadoDeCuenta";
 import Boleta from "./pages/Boleta";
 import InicioV from "./pages/InicioV";
-import Login from "./pages/Login";
-import PolticasDevolucin from "./pages/PolticasDevolucin";
 
 function App() {
   const action = useNavigationType();
@@ -35,7 +35,15 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/login":
+        title = "";
+        metaDescription = "";
+        break;
       case "/materia":
+        title = "";
+        metaDescription = "";
+        break;
+      case "/polticas-devolucin":
         title = "";
         metaDescription = "";
         break;
@@ -59,14 +67,6 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/login":
-        title = "";
-        metaDescription = "";
-        break;
-      case "/polticas-devolucin":
-        title = "";
-        metaDescription = "";
-        break;
     }
 
     if (title) {
@@ -86,14 +86,14 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<EspecialidadesTaller />} />
+      <Route path="/login" element={<Login />} />
       <Route path="/materia" element={<Materia />} />
+      <Route path="/polticas-devolucin" element={<PolticasDevolucin />} />
       <Route path="/aviso-de-privacidad" element={<AvisoDePrivacidad />} />
       <Route path="/facturacin-emitida" element={<FacturacinEmitida />} />
       <Route path="/estado-de-cuenta" element={<EstadoDeCuenta />} />
       <Route path="/boleta" element={<Boleta />} />
       <Route path="/inicio-v2" element={<InicioV />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/polticas-devolucin" element={<PolticasDevolucin />} />
     </Routes>
   );
 }

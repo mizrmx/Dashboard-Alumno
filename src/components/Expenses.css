@@ -1,0 +1,17 @@
+.expenses1 {
+  position: relative;
+}
+.expenses {
+  border-radius: var(--br-8xs);
+  background-color: #f5eeff;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: #8147e7;
+  font-family: var(--font-inter);
+}

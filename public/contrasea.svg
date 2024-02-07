@@ -1,17 +1,17 @@
 <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_670_1271)">
+<g filter="url(#filter0_d_670_1075)">
 <path d="M50 60C50 43.4315 63.4315 30 80 30V30C96.5685 30 110 43.4315 110 60V60C110 76.5685 96.5685 90 80 90V90C63.4315 90 50 76.5685 50 60V60Z" fill="white"/>
 <path d="M92 56.2813C92 61.4072 88.3063 65.5625 83.75 65.5625C83.2241 65.5625 82.7098 65.5065 82.2112 65.4007L81.0857 66.8252C80.9801 66.9588 80.8506 67.0657 80.7057 67.1389C80.5608 67.2122 80.4037 67.25 80.2448 67.25H78.5V69.3594C78.5 70.0584 77.9963 70.625 77.375 70.625H75.5V72.7344C75.5 73.4334 74.9963 74 74.375 74H69.125C68.5037 74 68 73.4334 68 72.7344V68.618C68 68.2823 68.1185 67.9604 68.3295 67.723L75.914 59.1905C75.6457 58.2753 75.5 57.2975 75.5 56.2812C75.5 51.1554 79.1936 47.0001 83.75 47C88.3197 46.9999 92 51.1402 92 56.2813ZM83.75 53.75C83.75 55.148 84.7573 56.2812 86 56.2812C87.2427 56.2812 88.25 55.148 88.25 53.75C88.25 52.352 87.2427 51.2188 86 51.2188C84.7573 51.2188 83.75 52.352 83.75 53.75Z" fill="#A098AE"/>
 </g>
 <defs>
-<filter id="filter0_d_670_1271" x="0" y="0" width="160" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_d_670_1075" x="0" y="0" width="160" height="160" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
 <feOffset dy="20"/>
 <feGaussianBlur stdDeviation="25"/>
 <feColorMatrix type="matrix" values="0 0 0 0 0.74902 0 0 0 0 0.0823529 0 0 0 0 0.423529 0 0 0 0.05 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_670_1271"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_670_1271" result="shape"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_670_1075"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_670_1075" result="shape"/>
 </filter>
 </defs>
 </svg>

@@ -1,0 +1,224 @@
+.div17 {
+  position: absolute;
+  top: 18px;
+  left: 17px;
+  display: inline-block;
+  width: 50px;
+}
+.div18 {
+  top: 18px;
+  left: 161px;
+  width: 33px;
+}
+.div18,
+.venta-al-publico,
+.xaxx01010100 {
+  position: absolute;
+  display: inline-block;
+}
+.venta-al-publico {
+  top: 9px;
+  left: 220px;
+  text-align: center;
+  width: 100px;
+}
+.xaxx01010100 {
+  top: 18px;
+  left: 331px;
+  width: 83px;
+}
+.hernandez-kahikwm-frida {
+  left: 426px;
+  width: 209px;
+}
+.div19,
+.hernandez-kahikwm-frida,
+.ingreso {
+  position: absolute;
+  top: 18px;
+  display: inline-block;
+}
+.ingreso {
+  left: 648px;
+  color: var(--color-gray-300);
+  width: 52px;
+}
+.div19 {
+  left: 750px;
+  width: 44px;
+}
+.div20 {
+  left: 850px;
+  width: 25.1px;
+}
+.activo,
+.div20,
+.div21,
+.div22 {
+  position: absolute;
+  top: 18px;
+  display: inline-block;
+}
+.div21 {
+  left: 927px;
+  color: var(--color-gray-300);
+  width: 43px;
+}
+.activo,
+.div22 {
+  left: 992px;
+  width: 42px;
+}
+.div22 {
+  left: 1071px;
+  color: var(--color-gray-300);
+  width: 25px;
+}
+.parent {
+  width: 1363px;
+  position: relative;
+  border-radius: var(--br-8xs);
+  background-color: var(--m3-sys-light-on-primary);
+  height: 53px;
+  flex-shrink: 0;
+}
+.fecha,
+.frame-parent {
+  position: absolute;
+  left: 0;
+}
+.frame-parent {
+  top: 36px;
+  width: 1361px;
+  height: 609px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-5xs) 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  gap: 19px;
+}
+.fecha {
+  top: 14px;
+  font-weight: 600;
+  font-family: var(--heading-heading-3);
+}
+.fecha,
+.folio,
+.serie {
+  color: var(--color-gray-300);
+}
+.serie {
+  position: absolute;
+  top: 14px;
+  left: 74px;
+  font-weight: 600;
+  font-family: var(--heading-heading-3);
+}
+.folio {
+  left: 140px;
+}
+.alumno,
+.folio,
+.razn-social,
+.rfc {
+  position: absolute;
+  top: 14px;
+  font-weight: 600;
+  font-family: var(--heading-heading-3);
+}
+.razn-social {
+  left: 204px;
+  color: var(--color-gray-300);
+}
+.alumno,
+.rfc {
+  left: 340px;
+}
+.alumno {
+  left: 471px;
+}
+.efecto {
+  margin: 0;
+}
+.efecto-comprobante {
+  position: absolute;
+  top: 0;
+  left: 611px;
+  font-weight: 600;
+  font-family: var(--heading-heading-3);
+  text-align: center;
+}
+.impuesto,
+.subtotal,
+.total {
+  position: absolute;
+  top: 15px;
+  left: 726px;
+  font-weight: 600;
+}
+.impuesto,
+.total {
+  left: 813px;
+}
+.total {
+  left: 906px;
+}
+.enviar-mensaje,
+.estatus,
+.impresin,
+.versin,
+.xml {
+  position: absolute;
+  top: 15px;
+  left: 969px;
+  font-weight: 600;
+}
+.enviar-mensaje,
+.impresin,
+.versin,
+.xml {
+  left: 1036px;
+}
+.enviar-mensaje,
+.impresin,
+.xml {
+  left: 1102px;
+}
+.enviar-mensaje,
+.xml {
+  left: 1184px;
+}
+.enviar-mensaje {
+  left: 1229px;
+}
+.menu-table {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  width: 1318px;
+  height: 36px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+  font-family: var(--font-inter);
+}
+.table {
+  position: absolute;
+  top: 404px;
+  left: 428px;
+  width: 1361px;
+  height: 645px;
+}
+.facturacin-emitida {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-background);
+  height: 1182px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-gray-200);
+  font-family: var(--heading-heading-3);
+}

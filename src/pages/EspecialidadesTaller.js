@@ -1,145 +1,117 @@
-import styles from "./EspecialidadesTaller.module.css";
+import ViewSalaryDetails from "../components/ViewSalaryDetails";
+import "./EspecialidadesTaller.css";
 
 const EspecialidadesTaller = () => {
   return (
-    <div className={styles.especialidadesTaller}>
-      <div className={styles.especialidadesTallerChild} />
-      <div className={styles.frameData}>
-        <div className={styles.groupParent}>
-          <div className={styles.rectangleParent}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+    <div className="especialidades-taller">
+      <div className="especialidades-taller-child" />
+      <div className="frame-data">
+        <div className="group-parent">
+          <div className="rectangle-parent">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
-          <div className={styles.rectangleGroup}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-group">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
-          <div className={styles.rectangleContainer}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-container">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
-          <div className={styles.groupDiv}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="group-div">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
-          <div className={styles.rectangleParent1}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent1">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
-          <div className={styles.rectangleParent2}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent2">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
-          <div className={styles.rectangleParent3}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent3">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
-          <div className={styles.rectangleParent4}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent4">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
-          <div className={styles.rectangleParent5}>
-            <div className={styles.groupChild} />
-            <div className={styles.div}>2023</div>
-            <div className={styles.btbusi}>BTBUSI</div>
-            <div className={styles.tallerBusinessMath}>
-              TALLER BUSINESS MATH
-            </div>
-            <div className={styles.viewSalaryDetails}>
-              <div className={styles.calificarParent}>
-                <div className={styles.calificar}>Calificar</div>
-                <img className={styles.vectorIcon} alt="" src="/vector.svg" />
-              </div>
-            </div>
+          <div className="rectangle-parent5">
+            <div className="group-child" />
+            <div className="div">2023</div>
+            <div className="btbusi">BTBUSI</div>
+            <div className="taller-business-math">TALLER BUSINESS MATH</div>
+            <ViewSalaryDetails
+              viewSalaryDetailsPosition="absolute"
+              viewSalaryDetailsTop="12px"
+              viewSalaryDetailsLeft="411px"
+            />
           </div>
         </div>
-        <div className={styles.ciclo}>Ciclo</div>
-        <div className={styles.especialidad}>Especialidad</div>
-        <div className={styles.descripcin}>Descripción</div>
+        <div className="ciclo">Ciclo</div>
+        <div className="especialidad">Especialidad</div>
+        <div className="descripcin">Descripción</div>
       </div>
-      <div className={styles.especialidadesTaller1}>
-        Especialidades / Taller
-      </div>
+      <div className="especialidades-taller1">Especialidades / Taller</div>
     </div>
   );
 };

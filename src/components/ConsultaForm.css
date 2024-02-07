@@ -1,0 +1,81 @@
+.mostrar {
+  width: 78px;
+  position: relative;
+  display: inline-block;
+  height: 21px;
+  flex-shrink: 0;
+}
+.button-consultar {
+  position: absolute;
+  top: 125px;
+  left: 1037px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-dodgerblue);
+  width: 140px;
+  height: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-9xl);
+  box-sizing: border-box;
+  text-align: center;
+}
+.consulta-facturacin {
+  width: 697px;
+  position: relative;
+  display: inline-block;
+}
+.title5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-purple);
+  width: 1373px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+  font-size: var(--heading-heading-3-size);
+}
+.nombre3 {
+  position: relative;
+}
+.hernandez-kahikwm-frida10 {
+  position: relative;
+  color: var(--color-gray-3);
+}
+.id-alumno2,
+.nombre2 {
+  position: absolute;
+  top: 103px;
+  left: 217px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--text-text-semi-bold-1-size);
+  color: var(--color-text);
+}
+.id-alumno2 {
+  left: 40px;
+  width: 92px;
+}
+.consulta {
+  position: absolute;
+  top: 154px;
+  left: 428px;
+  border-radius: var(--br-xl);
+  background-color: var(--m3-sys-light-on-primary);
+  width: 1373px;
+  height: 206px;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--m3-sys-light-on-primary);
+  font-family: var(--heading-heading-3);
+}

@@ -1,0 +1,46 @@
+.hasta {
+  position: relative;
+  font-weight: 500;
+}
+.uiscalender-icon {
+  width: 22px;
+  position: relative;
+  height: 22px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.div79 {
+  position: relative;
+}
+.calendario,
+.hasta-fecha {
+  width: 149px;
+  display: flex;
+  justify-content: flex-start;
+}
+.calendario {
+  border-radius: var(--br-8xs);
+  background-color: var(--color-ghostwhite-100);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  height: 37px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-5xs) var(--padding-3xs);
+  gap: var(--gap-4xs);
+  font-size: var(--text-text-regular-2-size);
+  color: var(--color-darkslategray-200);
+}
+.hasta-fecha {
+  position: absolute;
+  top: 97px;
+  left: 855px;
+  height: 65px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-darkslategray-100);
+  font-family: var(--heading-heading-3);
+}

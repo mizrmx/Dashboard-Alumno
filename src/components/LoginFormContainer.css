@@ -1,24 +1,16 @@
-.imageIcon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 960px;
-  height: 1182px;
-  object-fit: cover;
-}
-.labelText {
+.label-text {
   position: relative;
   letter-spacing: 0.1px;
   line-height: 20px;
   font-weight: 500;
 }
 .button,
-.stateLayer {
+.state-layer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.stateLayer {
+.state-layer {
   flex-direction: row;
   padding: var(--padding-3xs) var(--padding-5xl);
 }
@@ -31,10 +23,11 @@
   width: 545px;
   height: 56px;
   flex-direction: column;
+  cursor: pointer;
   font-size: var(--text-text-semi-bold-1-size);
-  color: var(--color-white1);
+  color: var(--m3-sys-light-on-primary);
 }
-.communicationMail {
+.communication-mail {
   width: 24px;
   position: relative;
   height: 24px;
@@ -44,8 +37,8 @@
 .admin {
   position: relative;
 }
-.communicationMailParent,
-.formChild {
+.communication-mail-parent,
+.form-child {
   position: absolute;
   left: 0;
   border-radius: var(--br-8xs);
@@ -53,20 +46,20 @@
   height: 40px;
   overflow: hidden;
 }
-.communicationMailParent {
+.communication-mail-parent {
   top: 84px;
-  border: 1px solid #bfbfbf;
+  border: 1px solid var(--color-silver-200);
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
   padding: var(--padding-5xs) var(--padding-4xs);
-  gap: 17px;
+  gap: var(--gap-mid);
   cursor: pointer;
   color: var(--color-silver-100);
 }
-.formChild {
+.form-child {
   top: 204px;
 }
 .contrasea,
@@ -83,66 +76,36 @@
 .recordar {
   top: 252px;
   left: 31px;
-  color: #434;
+  color: var(--color-darkslategray-300);
 }
-.formItem {
+.form-item {
   top: 255.5px;
   left: -0.5px;
-  border: 1px solid #ab91ff;
+  border: 1px solid var(--color-mediumpurple);
   box-sizing: border-box;
   width: 17px;
   height: 17px;
   overflow: hidden;
 }
-.form,
-.formItem,
+.form-item,
+.form1,
 .login1 {
   position: absolute;
 }
 .login1 {
   top: 0;
   left: 0;
-  font-size: 32px;
+  font-size: var(--font-size-13xl);
   letter-spacing: 0.1px;
   line-height: 20px;
   font-weight: 500;
   color: var(--color-gray-200);
 }
-.form {
+.form1 {
   top: 534px;
   left: 1161px;
   width: 545px;
   height: 412px;
-}
-.bienvenidoAlPanel {
-  position: absolute;
-  top: 168px;
-  left: 0;
-}
-.interschoolLogoAzul1Icon {
-  position: absolute;
-  top: 0;
-  left: 194px;
-  width: 149px;
-  height: 123px;
-  overflow: hidden;
-}
-.header {
-  position: absolute;
-  top: 196px;
-  left: 1176px;
-  width: 513px;
-  height: 204px;
-  text-align: left;
-  font-size: var(--heading-heading-3-size);
-  color: var(--color-silver-100);
-}
-.login {
-  width: 100%;
-  position: relative;
-  background-color: var(--color-background);
-  height: 1182px;
-  overflow: hidden;
   text-align: center;
   font-size: var(--font-size-base);
   color: var(--color-darkslategray-100);

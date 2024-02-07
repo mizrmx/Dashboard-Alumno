@@ -1,0 +1,65 @@
+.captura-de-pantalla-2024-01-31 {
+  width: 1370px;
+  position: relative;
+  height: 759.7px;
+  object-fit: cover;
+  display: none;
+}
+.materia2 {
+  position: absolute;
+  top: 296px;
+  left: 425px;
+  border-radius: var(--br-3xs);
+  width: 1376px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 31.46666717529297px 0;
+  box-sizing: border-box;
+  background-image: url(/public/materia@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.polticas-de-devolucin {
+  width: 697px;
+  position: relative;
+  display: inline-block;
+}
+.header1,
+.title {
+  width: 1373px;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-purple);
+  height: 60px;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-21xl);
+  box-sizing: border-box;
+}
+.header1 {
+  position: absolute;
+  top: 154px;
+  left: 428px;
+  border-radius: var(--br-xl);
+  background-color: var(--m3-sys-light-on-primary);
+  height: 108px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.polticas-devolucin {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-background);
+  height: 1182px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--heading-heading-3-size);
+  color: var(--m3-sys-light-on-primary);
+  font-family: var(--heading-heading-3);
+}

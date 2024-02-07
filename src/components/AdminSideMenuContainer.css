@@ -1,0 +1,68 @@
+.placeholder1 {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 84.62%;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-2);
+}
+.mayra-z {
+  position: relative;
+  font-weight: 600;
+}
+.admin1 {
+  position: relative;
+  color: var(--color-gray-3);
+}
+.name1 {
+  position: absolute;
+  top: 7px;
+  left: 242px;
+  width: 64px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.contrasea-icon,
+.disponibilidad-icon,
+.inbox-icon {
+  position: absolute;
+  height: 100%;
+  width: 15.38%;
+  top: 0;
+  right: 44.36%;
+  bottom: 0;
+  left: 40.26%;
+  border-radius: var(--br-21xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.disponibilidad-icon,
+.inbox-icon {
+  right: 64.87%;
+  left: 19.74%;
+}
+.inbox-icon {
+  right: 84.62%;
+  left: 0;
+}
+.side-menu {
+  position: absolute;
+  top: 58px;
+  left: 1418px;
+  width: 390px;
+  height: 60px;
+  text-align: left;
+  font-size: var(--text-text-regular-2-size);
+  color: var(--color-text);
+  font-family: var(--heading-heading-3);
+}
